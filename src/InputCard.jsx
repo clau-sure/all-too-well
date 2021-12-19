@@ -6,7 +6,8 @@ function InputCard() {
 
   const [allTooWells, setAllTooWells] = useState(0);
   const [show, setShow] = useState(false);
-  const [request, setRequest] = useState({days: 0, hours: 0, minutes: 0})
+  const [request, setRequest] = useState({days: 0, hours: 0, minutes: 0});
+  const [error, setError] = useState(true);
 
   function setFormData (event) {
     const {name, value} = event.target;
@@ -17,12 +18,17 @@ function InputCard() {
   }
 
   function convertInAllTooWell () {
-    const minutesInDay = request.days * 1440;
-    const minutesInHour = request.hours * 60;
-    const totalMinutes = minutesInDay + minutesInHour + parseInt(request.minutes);
-    setAllTooWells(totalMinutes / 10); 
+    if (request.days == 0 && request.hours == 0 && request.minutes == 0 ) {
+      setError(true);
+    } else {
+      setError(false);
+      const minutesInDay = request.days * 1440;
+      const minutesInHour = request.hours * 60;
+      const totalMinutes = minutesInDay + minutesInHour + parseInt(request.minutes);
+      setAllTooWells(totalMinutes / 10); 
+    }
     setShow(true);
-} 
+  } 
 
   return (
     <div className={'container' + (show === true ? ' expanded' : ' folded')}>
@@ -33,7 +39,7 @@ function InputCard() {
       </div>
       <input type="submit" value="Calculate" className="button" onClick={convertInAllTooWell} />
       <div className={(show === true ? '' : 'hidden')}>
-        <Result setShow={setShow} allTooWells={allTooWells} />
+        <Result setShow={setShow} allTooWells={allTooWells} error={error} />
       </div>
     </div>
   );

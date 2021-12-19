@@ -5,17 +5,18 @@
 }
 
 html {
-  height: 100%;
-}
-
-body {
-  margin: 0;
   font-family: FuturaNDAlt;
   min-height: 100%;
+  background-attachment:scroll;
   background: #70000e; /* Old browsers */
   background: -moz-linear-gradient(top,  #70000e 0%, #d7122b 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  #70000e 0%,#d7122b 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #70000e 0%,#d7122b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70000e', endColorstr='#d7122b',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+  margin: 0;
+
 }
 

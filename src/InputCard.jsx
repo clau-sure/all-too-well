@@ -12,7 +12,7 @@ function InputCard() {
   }
 
   return (
-    <div className="container">
+    <div className={'container' + (show === true ? ' expanded' : ' folded')}>
       <div className="inputs">
         <input className="input" type="text" placeholder="Days"/>
         <input className="input" type="text" placeholder="Hours"/>

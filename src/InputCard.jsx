@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.scss';
 import Result from './Result';
+import Switch from './Switch';
 
 function InputCard() {
 
@@ -18,7 +19,7 @@ function InputCard() {
   }
 
   function convertInAllTooWell () {
-    if (request.days == 0 && request.hours == 0 && request.minutes == 0 ) {
+    if (request.days === 0 && request.hours === 0 && request.minutes === 0 ) {
       setError(true);
     } else {
       setError(false);
@@ -32,6 +33,7 @@ function InputCard() {
 
   return (
     <div className={'container' + (show === true ? ' expanded' : ' folded')}>
+      <Switch />
       <div className="inputs">
         <input className="input" type="number" placeholder="Days" name="days" onChange={setFormData} />
         <input className="input" type="number" placeholder="Hours" name="hours" onChange={setFormData}/>

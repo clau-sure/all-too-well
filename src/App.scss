@@ -14,7 +14,7 @@
   width: 80vw;
   background-color: rgba(255, 255, 255, 0.479);
   border-radius: 10px;
-  height: 40vw;
+  height: 53vw;
   margin: auto;
   text-align: center;
   display: flex;
@@ -27,6 +27,11 @@
     height: 100vw;
   }
 
+  .inputs {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
   .input {
     margin-top: 50px;
     border: none;
@@ -35,7 +40,6 @@
   }
 
   .button {
-    margin-top: 50px;
     background-color: #70000e;
     border: none;
     text-decoration: none;
@@ -48,15 +52,27 @@
   }
 }
 
+.result-text {
+  font-size: 40px;
+  margin-bottom: 10px;
+  span {
+    color: #70000e;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
 .footer {
   position: absolute;
-  bottom: 10px;
+  top: 96%;
   width: 100%;
   text-align: center;
+}
 
-  a {
-    color: black;
-  }
+.link {
+  color: black;
 }
 
 .App-logo {

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/all-too-well/static/css/main.7f2f7bee.css",
-    "main.js": "/all-too-well/static/js/main.d94c322a.js",
+    "main.css": "/all-too-well/static/css/main.13135165.css",
+    "main.js": "/all-too-well/static/js/main.243764ca.js",
     "static/js/787.86e20940.chunk.js": "/all-too-well/static/js/787.86e20940.chunk.js",
     "static/media/FuturaNDAltCn-LightOblique.ttf": "/all-too-well/static/media/FuturaNDAltCn-LightOblique.cb92353eca33ac19294b.ttf",
     "index.html": "/all-too-well/index.html",
-    "main.7f2f7bee.css.map": "/all-too-well/static/css/main.7f2f7bee.css.map",
-    "main.d94c322a.js.map": "/all-too-well/static/js/main.d94c322a.js.map",
+    "main.13135165.css.map": "/all-too-well/static/css/main.13135165.css.map",
+    "main.243764ca.js.map": "/all-too-well/static/js/main.243764ca.js.map",
     "787.86e20940.chunk.js.map": "/all-too-well/static/js/787.86e20940.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f2f7bee.css",
-    "static/js/main.d94c322a.js"
+    "static/css/main.13135165.css",
+    "static/js/main.243764ca.js"
   ]
 }

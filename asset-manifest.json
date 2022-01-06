@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/all-too-well/static/css/main.98a2399d.css",
-    "main.js": "/all-too-well/static/js/main.d97190e2.js",
+    "main.js": "/all-too-well/static/js/main.f96ba891.js",
     "static/js/787.86e20940.chunk.js": "/all-too-well/static/js/787.86e20940.chunk.js",
     "static/media/FuturaNDAltCn-LightOblique.ttf": "/all-too-well/static/media/FuturaNDAltCn-LightOblique.cb92353eca33ac19294b.ttf",
     "index.html": "/all-too-well/index.html",
     "main.98a2399d.css.map": "/all-too-well/static/css/main.98a2399d.css.map",
-    "main.d97190e2.js.map": "/all-too-well/static/js/main.d97190e2.js.map",
+    "main.f96ba891.js.map": "/all-too-well/static/js/main.f96ba891.js.map",
     "787.86e20940.chunk.js.map": "/all-too-well/static/js/787.86e20940.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98a2399d.css",
-    "static/js/main.d97190e2.js"
+    "static/js/main.f96ba891.js"
   ]
 }

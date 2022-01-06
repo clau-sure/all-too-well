@@ -1,0 +1,16 @@
+{
+    "title" : "How many 'All too well'?",
+    "switch1": "Enter a time",
+    "switch2": "Enter a date",
+    "time_explanation": "Select an amount of time and calculate how many times you can play 'All too well' in that period.",
+    "date_explanation": "Select a future date and calculate how many times you can play 'All too well' until that day.",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "calculate": "Calculate",
+    "error": "You have to add some times :(",
+    "result1": "You can play All Too Well ",
+    "result2": " times",
+    "start": "Want to start now?",
+    "replay": "Calculate again"
+}

@@ -1,9 +1,14 @@
+import { useContext } from 'react';
+import { LangContext } from './App';
 import './App.scss';
 
 function Nav() {
+
+  const contextValue = useContext(LangContext);
+
   return (
     <div className="nav">
-      <h1>How many 'All too well'?</h1>
+      <h1>{contextValue.dictionary.title}</h1>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+{
+    "title" : "Cuántas veces puedo escuchar 'All too well'?",
+    "switch1": "Por tiempo",
+    "switch2": "Por fecha",
+    "time_explanation": "Introduce una cantidad y calcula cuántas veces podrías escuchar 'All too well' en ese tiempo.",
+    "date_explanation": "Selecciona una fecha futura y calcula cuántas veces podrías escuchar 'All too well' hasta ese día.",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "calculate": "Calcular",
+    "error": "Tienes que añadir un valor :(",
+    "result1": "Puedes escuchar All Too Well ",
+    "result2": " veces",
+    "start": "¿Quieres empezar ya?",
+    "replay": "Calcular de nuevo"
+}

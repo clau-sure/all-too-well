@@ -17,7 +17,7 @@ function Result({ setShow, allTooWells, error }) {
                 ?
                 <>
                     <p className="result-text">{contextValue.dictionary.error}</p>
-                    <button className="button-link" onClick={hideResult}>Calculate again</button>
+                    <button className="button-link" onClick={hideResult}>{contextValue.dictionary.replay}</button>
                 </>
                 :
                 <>

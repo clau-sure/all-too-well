@@ -26,8 +26,6 @@ function InputCard() {
       setError(false)
       const today = new Date().toLocaleDateString("en-US").split(" ", 1)[0];
       const date = new Date(event.target.value).toLocaleDateString("en-US");
-      console.log(today)
-      console.log(date)
       if (new Date(date) < new Date(today)) {
         setError(true);
         setShow(true);

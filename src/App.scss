@@ -13,6 +13,34 @@
     color: #d0b58f;
     font-size: 60px;
     max-width: 90vw;
+    margin-top: 70px;
+  }
+
+  .lang {
+    position: absolute;
+    top: 10px;
+    background-color: #d0b58f;
+    color: #70000e;
+    @media (min-width: 600px) {
+      right: 20px;
+    }
+
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='maroon' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 2px;
+    border-radius: 2px;
+    padding: 7px;
+    padding-right: 2rem;
+  }
+  select:focus-visible {
+    outline: none;
   }
 }
 

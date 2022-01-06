@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <LangContext.Provider value={{ userLang: lang, dictionary: lang === 'es' ? es : en }}>
-      <Nav />
+      <Nav setLang={setLang} />
       <div className="content">
         <InputCard />
       </div>
